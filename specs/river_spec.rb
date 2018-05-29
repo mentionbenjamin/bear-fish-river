@@ -7,8 +7,8 @@ class RiverTest < MiniTest::Test
     @river = River.new("Amazon")
   end
 
-  def test_fish_name
-    assert_equal("Fishy", @fish1.name())
+  def test_get_river_name
+    assert_equal("Amazon", @river.name())
   end
 
 
