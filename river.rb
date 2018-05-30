@@ -11,17 +11,51 @@ class River
     return @fishes_in_river.count()
   end
 
-  def add_fish_to_river(fish)
-    @fishes_in_river.push(fish)
+  def add_fish(add_fish)
+    @fishes_in_river.push(add_fish)
   end
 
 
 
 
-  def lose_a_fish_when_bear_takes(fish)
-    @fish_in_river.delete(fish)
-    return @fish_in_river
-  end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  # def lose_a_fish_when_bear_takes(fish)
+  #   @fish_in_river.delete(fish)
+  #   return @fish_in_river
+  # end
 
 
 

@@ -14,6 +14,10 @@ class BearTest < MiniTest::Test
     assert_equal("Bearly-Yogi", @bear.name())
   end
 
+  def test_can_roar_like_bear
+    assert_equal("Roar! I'm a polar-bear!", @bear.make_sound())
+  end
+
 
 
 
